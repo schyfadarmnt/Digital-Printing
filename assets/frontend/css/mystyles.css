@@ -1,0 +1,47 @@
+/*YOUR CUSTOM STYLES*/
+.alert-parent{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+}
+.alert-success {
+	padding: 20px;
+	background-color: #cce5ff;
+	color: #004085;
+	margin: 0 auto;
+	width: 50%;
+	border-radius: .25rem;
+	border: 1px solid #b8daff;
+}
+.alert-danger {
+	padding: 20px;
+	background-color: #f8d7da;
+	color: #721c24;
+	margin: 0 auto;
+	width: 50%;
+	border-radius: .25rem;
+	border: 1px solid  #f5c6cb;
+}
+.alert-warning {
+	padding: 20px;
+	background-color: #fff3cd;
+	color: #856404;
+	margin: 0 auto;
+	width: 50%;
+	border-radius: .25rem;
+	border: 1px solid  #ffeeba;
+}
+
+.closebtn {
+	margin-left: 15px;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.closebtn:hover {
+	color: black;
+}
